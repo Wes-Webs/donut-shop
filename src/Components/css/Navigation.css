@@ -1,0 +1,9 @@
+.navigation-logo {
+    max-width: 125px;
+}
+
+@media (max-width: 768px) {
+    .navigation-logo {
+      width: 75%;
+    }
+  }

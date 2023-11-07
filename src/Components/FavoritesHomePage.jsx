@@ -1,6 +1,7 @@
 import React  from 'react';
 import { useEffect, useState } from 'react';
 import DonutModal from './DonutModal';
+import Axios from 'axios';
 
 function FavoritesHomePage () {
 
@@ -24,7 +25,7 @@ function FavoritesHomePage () {
       const closeModal = () => {
         setShowModal(false);
     };
-
+    console.log(donuts)
     return (
         <section id="favorites-homepage" className="my-5 container">
             <h2 className="text-center mb-4 header-font">Best Bites!</h2>
